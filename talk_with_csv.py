@@ -7,7 +7,6 @@ import streamlit as st
 import sqlite3
 #import altair as alt
 #import seaborn as sns
-import matplotlib.pyplot as plt
 from showallthedb import showallgraph
 conn = sqlite3.connect('news_data.db')
 cursor = conn.cursor()
